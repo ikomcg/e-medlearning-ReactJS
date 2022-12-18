@@ -13,7 +13,7 @@ const News = () => {
         <div className='flex flex-row flex-wrap gap-y-5'>
           {data !== undefined ? data.map((data, index) => (
              index <4 && (
-            <NewsCard data = {data} index={index}/>
+            <NewsCard key={index} data = {data} />
             ))) : <div>this section is free api only</div>}
         </div>
     </div>

@@ -12,15 +12,13 @@ module.exports = {
       },
       height: {
         '600': '600px',
+        'webkit-fill-available': '-webkit-fill-available'
       },
       scale: {
         '101': '1.01',
       },
       margin: {
         '200': '200px',
-      },
-      fontFamily:{
-        'lobs': 'Lobster, cursive'
       },
       lineHeight: {
         '3': '3'

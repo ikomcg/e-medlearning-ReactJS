@@ -22,7 +22,7 @@ const Main = () => {
   return (
     <main className='my-10'> 
         <div className='wrap flex justify-between '>
-            <div className='left-topic relative flex w-7/12 rounded-xl overflow-hidden cursor-pointer hover:scale-105'>
+            <div className='left-topic relative flex w-7/12 rounded-xl overflow-hidden cursor-pointer hover:scale-101'>
                 <LazyLoadImage effect="blur" src={FastingDiet} />
                 <div className='topic-info absolute bottom-5 p-3'>
                     <h3 className='text-2xl text-regal-blue font-bold'>Is a fasting Diet Right for You?</h3>

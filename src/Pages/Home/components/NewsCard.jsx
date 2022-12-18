@@ -4,9 +4,9 @@ import React from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
-const NewsCard = ({data, index}) => {
+const NewsCard = ({data}) => {
   return (
-    <a key={index} href={data.link} className='w-1/2 px-3' rel="noreferrer" target="_blank">
+    <a href={data.link} className='w-1/2 px-3' rel="noreferrer" target="_blank">
         <div className='flex flex-row flex-nowrap'>
         <LazyLoadImage
             effect="blur"

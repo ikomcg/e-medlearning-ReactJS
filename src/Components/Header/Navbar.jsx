@@ -20,7 +20,7 @@ export const Navbar = () => {
         <li>
           Healthy Recipes 
           <AiOutlineCaretDown/>
-          <HealthTopics/>
+          <HealthyRecipes/>
         </li>
         <li>
           Video & Tools 

@@ -11,7 +11,7 @@ const LeftFooter = () => {
   return (
     <div className="left-footer w-1/2 px-5">
       <div className='flex flex-col justify-center items-center my-5'>
-        <h1 className='text-5xl first-letter:text-regal-blue font-lobs font-bold'>E-MedLearning</h1>
+        <h1 className='text-5xl first-letter:text-regal-blue font-bold'>E-MedLearning</h1>
         <ul className='flex flex-row my-5 gap-5 '>
           {socialIcons.map((items, index) => (
               <li className='text-2xl' key={index}>{items}</li>

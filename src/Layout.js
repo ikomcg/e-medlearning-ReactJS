@@ -5,11 +5,13 @@ import Header from './Components/Header/Header'
 
 const Layout = () => {
   return (
-    <>
-      <Header/>
-      <Outlet/>
-      <Footer/>
-    </>
+    <div className='flex flex-col justify-between h-screen'>
+        <div>
+          <Header/>
+          <Outlet/>
+        </div>
+        <Footer/>
+    </div>
   )
 }
 
