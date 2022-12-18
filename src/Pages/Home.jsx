@@ -1,4 +1,5 @@
 import React from 'react'
+import HealthCondition from './Home/HealthCondition';
 import LivingHealthy from './Home/Living_Healthy';
 import Main from './Home/Main'
 import News from './Home/News';
@@ -8,14 +9,17 @@ const Home = () => {
   return (
     <>
       <Main/>
-      <section >
+      <section className='living-healthy-page'>
         <LivingHealthy/>
       </section>
-      <section className='my-10'>
-          <News/>
+      <section className='newsletter-page'>
+        <News/>
       </section>
-      <section>
-          <Newsletter/>
+      <section className='subcription-page'>
+        <Newsletter/>
+      </section>
+      <section className='health-condition'>
+        <HealthCondition/>
       </section>
     </>
   )

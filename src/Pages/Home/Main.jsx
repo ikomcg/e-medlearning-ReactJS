@@ -20,7 +20,7 @@ const topic = [
 
 const Main = () => {
   return (
-    <main className='my-10'>
+    <main className='my-10'> 
         <div className='wrap flex justify-between '>
             <div className='left-topic relative flex w-7/12 rounded-xl overflow-hidden cursor-pointer hover:scale-105'>
                 <LazyLoadImage effect="blur" src={FastingDiet} />
