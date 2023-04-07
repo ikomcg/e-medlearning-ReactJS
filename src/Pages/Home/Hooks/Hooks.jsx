@@ -11,14 +11,17 @@ const options = {
 export const useFetch = ({url}) => {
 
     const [data, setData] = useState([])
+    const [isLoading, setIsLoading] = useState(true)
+
     useMemo(()=> {
         fetch(url, options)
         .then(response => response.json())
-        .then(data =>  setData(data.articles))
+        .then(data =>  {setData(data.articles); setIsLoading(false)})
        .catch(err => console.error(err))
     },[url])
 
   return {
-    data
+    data,
+    isLoading
   }
 } 
